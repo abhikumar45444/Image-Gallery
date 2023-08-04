@@ -155,12 +155,20 @@ body {
     .container {
         padding: 25px;
     }
+
+    .gallery figure{
+        width: calc((100% - 20px)/2);
+    }
 } */
 
 
 @media screen and (max-width: 500px) {
     .container {
         padding: 30px;
+    }
+
+    .gallery figure{
+        /* width: calc((100% - 0px)/1); */
     }
 
     .footer .footer-p{
@@ -181,7 +189,8 @@ body {
     }
     
     .gallery figure:hover figcaption {
-        font-size: 0.8rem;
+        padding: 1rem;
+        font-size: 0.6rem;
         opacity: 0.7;
     }
 }
